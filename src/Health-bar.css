@@ -9,6 +9,7 @@
 
 .health-counter {
   position: absolute;
+  font-variant-numeric: oldstyle-nums;
   animation-duration: 2s;
   animation-name: slidedown;
   color: white;
@@ -22,12 +23,12 @@
 
   20% {
     padding-top: 0px;
-    color: black;
+    color: rgb(4, 128, 46);
   }
 
   50% {
     padding-top: 0px;
-    color: black;
+    color: rgb(4, 128, 46);
   }
 
   100% {
@@ -44,6 +45,8 @@
 
 .health-test {
   position: absolute;
+  font-variant-numeric: oldstyle-nums;
+  color: rgb(6, 50, 112);
   font-size: 20px;
   padding-top: 20px;
   padding-left: 13px;

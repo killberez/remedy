@@ -26,6 +26,7 @@ function HealthBar() {
 
   return (
     <div>
+      <p>Add or remove health</p>
       <HealthCounter />
       <div className="health-div" style={{ width: "500px" }}>
         <div style={{ width: `${health}px` }} className="progress" />
